@@ -1,0 +1,57 @@
+@media(max-width: 1150px){
+.list-menu{display: none;}
+#contactButton{display: none;}
+.header-menu{
+    position: fixed;
+    background-color: black;
+    padding-bottom: 14px;
+    z-index: 10000;
+    margin-top: -15px;
+ } 
+
+}
+@media(min-width: 1150px){
+    .openMenuSideNav{display: none;}
+    .closebtn{display: none;}
+    
+   
+}
+@media(max-width: 740px){
+    .header-home-heading{
+        font-size: 30px;
+        margin-left: 30px;
+        margin-top: -20px;
+        }
+   .header-home-paragraph{
+            margin-top: 20px;
+            margin-left: 9%;
+           
+        }   
+    .about-me-picture img{
+            width:300px;  
+    }
+    .videos iframe{
+        width: 200px;
+    }
+     
+}
+@media(max-width: 424px){
+    .list{
+        margin-bottom: -25px;
+    }
+    .header-home-welcome{
+       margin-bottom: 5px;
+       margin-right: -10px;
+    }
+}
+@media(max-width: 330px){
+    .header-home-heading{
+        font-size: 26px;
+    }
+    .header-home-text{
+        margin-right: -30px;
+    }
+    .text{
+        font-size: 14px;
+    }
+}

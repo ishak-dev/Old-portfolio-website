@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<?php include("server.php")?>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Ishak Kazić</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css.css">
+        <link rel="stylesheet" href="csscirclebar.css">
+        <link rel="stylesheet" href="cssAnimation.css">
+        <link rel="stylesheet" href="media.css">
+        <link rel="stylesheet" href="scrollAnimate.css">
+        <!--===============================OD OVE ZELENE DO ZADNJE ZELENE===========================================-->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!--===============================================================================================-->
+            <link rel="icon" type="image/png" href="images/icons/favicon.ico"/>
+        <!--===============================================================================================-->
+          
+        <!--===============================================================================================-->
+            <link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+        <!--===============================================================================================-->
+            <link rel="stylesheet" type="text/css" href="fonts/Linearicons-Free-v1.0.0/icon-font.min.css">
+        <!--===============================================================================================-->
+            
+        <!--===============================================================================================-->
+            
+        <!--===============================================================================================-->
+            
+        <!--===============================================================================================-->
+           
+        <!--===============================================================================================-->
+            
+        <!--===============================================================================================-->
+            <link rel="stylesheet" type="text/css" href="css/util.css">
+            <link rel="stylesheet" type="text/css" href="css/main.css">
+        <!--===============================================================================================-->
+    </head>
+    <body>
+        <div id="progressbar"></div>
+        <div id="scrollPath"></div>
+       <div class="header-content" id="header-content">
+           <div class="header-menu">              
+               <div class="menu" id="menu">
+                   <ul class="list">
+                       <li>
+                        <a href="#header-content">
+                        <div class="logo">
+                            <img src="img/IshakK.jpg" alt="Ishak K">             
+                        </div>
+                        </a>
+                       </li>
+                       
+                       <div class="list-menu" id="listMenu">                      
+                       <a href="#about-me" ><li><span></span><span></span><span></span><span></span>About me</li></a>
+                       <a href="#skills" ><li><span></span><span></span><span></span><span></span>Skills</li></a>
+                       <a href="#my-work" ><li><span></span><span></span><span></span><span></span>My Work</li></a>
+                       <a href="#experience" ><li><span></span><span></span><span></span><span></span>Experience</li></a>                       
+                       </div>
+                       
+                       
+                       <li><a href="#contact"> 
+                         <button id="contactButton">Contact</button>                      
+                        </a></li>
+                        
+                   </ul>
+                   <div id="sideNav" class="sidenav">
+                   <a href="#about-me" onclick="closeNav()">About me</a>
+                   <a href="#skills" onclick="closeNav()">Skills</a>
+                   <a href="#my-work" onclick="closeNav()">My Work</a>
+                   <a href="#experience" onclick="closeNav()">Experience</a>
+                   <a href="#contact" onclick="closeNav()">Contact</a>
+                   </div>
+                   <span style="font-size: 30px; cursor:pointer; color:yellow;"class="openMenuSideNav" id="open" onclick="openNav()">
+                <div class="hamburger"><span></span><span></span><span></span></div>
+                
+                </span>
+                <a href="javascript:void(0)" class="closebtn" id="closebtn" onclick="closeNav()">
+                    <span style='font-size:50px;'><h4>X</h4></span>
+                   </a>
+                
+               </div>              
+           </div>
+           
+           <div class="header-home">
+               <div class="header-home-picture">
+                  
+                   
+               </div>
+              <div class="header-home-text">
+               <div class="header-home-welcome">
+                   <h1 id="welcome">
+                    <span>W</span>
+                    <span>e</span>
+                    <span>l</span>
+                    <span>c</span>
+                    <span>o</span>
+                    <span>m</span>
+                    <span>e</span>
+                   </h1>
+                </div>
+               <div class="header-home-heading">
+                   <h1><span>I'm </span>Ishak Kazić <br><span>Web Developer</span></h1>
+               </div>
+               <div class="header-home-paragraph">
+                   <p>On this site you can find all helpful stiff about Ishak</p>
+               </div>
+              </div>
+           </div>
+       
+       </div>
+       
+          <div class="about-me" id="about-me">
+            <div class="container-about-me">
+<div class="about-me-heading"><h2>About me</h2></div>
+              <div class="about-me-picture"><img src="img/ishakSarajevo.jpg"></div>
+              
+             
+              
+              <div class="about-me-paragraph"><p style="color: white;">Ishak Kazić <br>- 19 years old <br>- Finished high school of electricity engineering in Sarajevo
+            <br>- Enrolled in International Burch University (2020/2021) <br>- Member of mentoring program BH Futures Foundation (January - August, 2020.)
+        <br>- Participant in "Creating mitigation solutions for COVID-19" (presenting own idea) Ideathon2020<br>- Participant in HACKATON  "Tehnical solutions for COVID-19" (presenting own idea)
+    <br>- Knowledge of HTML&CSS and JS - advanced, C# PHP MYSQL SQL - basics </p></div>
+            </div>
+            <div class="email"><div class="email-style"> e-mail: <a href="mailto:ishak.kazic@gmail.com" type="email">ishak.kazic@gmail.com</a></div></div>
+          </div>
+          
+          <div class="skills" id="skills">
+            
+            <div class="card">
+                <div class="box">
+                    <div class="percent">
+                        <svg>
+                            <circle cx="70" cy="70" r="70">    </circle>
+                            <circle cx="70" cy="70" r="70">    </circle>
+                        </svg>
+                        <div class="number">
+                            <h2>90<span>%</span></h2>
+                        </div>
+    
+                    </div>
+                    <h2 class="text">Html</h2>
+                </div>
+            </div>
+            <div class="card">
+                <div class="box">
+                    <div class="percent">
+                        <svg>
+                            <circle cx="70" cy="70" r="70">    </circle>
+                            <circle cx="70" cy="70" r="70">    </circle>
+                        </svg>
+                        <div class="number">
+                            <h2>80<span>%</span></h2>
+                        </div>
+    
+                    </div>
+                    <h2 class="text">CSS</h2>
+                </div>
+            </div>
+            <div class="card">
+                <div class="box">
+                    <div class="percent">
+                        <svg>
+                            <circle cx="70" cy="70" r="70">    </circle>
+                            <circle cx="70" cy="70" r="70">    </circle>
+                        </svg>
+                        <div class="number">
+                            <h2>60<span>%</span></h2>
+                        </div>
+    
+                    </div>
+                    <h2 class="text">JavaScript</h2>
+                </div>
+               
+            </div>  
+             <div class="progres-show" >
+            <div class="progress">
+            <h2 >Communication</h2>
+            <div class="myProgress-border">
+            <div class="myProgress" id="myProgress">
+                <div class="myBar" id="myBar">
+                    <div class="label" id="label">10%</div>
+
+                </div>
+            </div></div>
+            </div>
+            
+
+            <div class="progress-right">
+                <h2 >Speed and Time</h2>
+                <div class="myProgress-border-right">
+                <div class="myProgress" id="myProgress">
+                    <div class="myBar" id="myBarRight">
+                        <div class="label" id="labelRight">10%</div>
+    
+                    </div>
+                </div></div>
+                </div>
+            </div>
+            <button onclick="moveRight(); move()" class="button-provjeri"><h2>Check</h2></button>
+            <div class="skills-me-heading"><h2>Skills</h2></div>
+          </div>
+          <div class="my-work" id="my-work">
+              <div class="my-work-heading"><h2>My Work</h2></div>
+              <div class="yt-videos">
+                  <div class="videos">
+                  <iframe width="560" height="315" src="https://www.youtube.com/embed/KnaHLvevaQQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  <iframe width="560" height="315" src="https://www.youtube.com/embed/rzzwzvYbcbk?controls=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  
+                </div>
+                </div>
+          </div>
+          <div class="experience" id="experience">
+            <div class="experience-heading"><h2>Experience</h2></div>
+              <div class="experience-container">
+              <h2>Coming Soon</h2>
+              </div>
+          </div>
+          <div class="contact" id="contact" >
+            <div class="container-contact100">
+	
+                <div class="wrap-contact100" style="display: block;">
+                    
+        
+                    <form class="contact100-form validate-form" method="POST" action="index.php">
+                        <span class="contact100-form-title">
+                            Contact <span id="me">Me</span>
+                        </span>
+        
+                        <div class="wrap-input100 rs1-wrap-input100 validate-input" data-validate="Name is required">
+                            <span class="label-input100">Your Name</span>
+                            <input class="input100" type="text" name="name" placeholder="Enter your name">
+                            <span class="focus-input100"></span>
+                        </div>
+        
+                        <div class="wrap-input100 rs1-wrap-input100 validate-input" data-validate = "Valid email is required: ex@abc.xyz">
+                            <span class="label-input100">Email</span>
+                            <input class="input100" type="text" name="email" placeholder="Enter your email addess">
+                            <span class="focus-input100"></span>
+                        </div>
+        
+                        <div class="wrap-input100 validate-input" data-validate = "Message is required">
+                            <span class="label-input100">Message</span>
+                            <textarea class="input100" name="message" placeholder="Your message here..."></textarea>
+                            <span class="focus-input100"></span>
+                        </div>
+        
+                        <div class="container-contact100-form-btn">
+                            <button class="contact100-form-btn" name="submit" type="submit" id="submit">
+                                <span>
+                                    Submit
+                                    <i class="fa fa-long-arrow-right m-l-7" aria-hidden="true"></i>
+                                </span>
+                            </button>
+                        </div>
+                    </form>
+        
+                    
+                </div>
+            </div>
+          </div>
+          <div class="footer">
+              <div class="footer-container">
+                   <p>Website is made by Ishak Kazić &copy;</p>
+                  <p>Stranica je napravljena od strane Ishak Kazić &copy;</p>
+                  <p>if you notice any errors let me know  <br>
+                <a href="mailto: ishak.kazic@gmail.com">ishak.kazic@gmail.com</a>
+                </p>
+              </div>
+          </div>
+       
+
+
+
+        
+        <script src="js.js" type="text/javascript"></script>
+    </body>
+</html>
